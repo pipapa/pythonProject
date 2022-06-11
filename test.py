@@ -1,6 +1,14 @@
-python="学会python还可以飞"
-age = 18
-print(python)
-print(age)
-print(type(python))
-type(age)
+money=1
+seat=0
+# money,seat = 1 表示有钱，有座位 0 表示没钱 没座位
+if money == 1:
+    print("可以做公交")
+    if seat == 1:
+        print('可以坐座位')
+    else:
+        print('就站着把')
+else:
+    print('没钱不能左公交')
+
+
+
